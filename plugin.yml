@@ -1,0 +1,16 @@
+author: NightlySide
+main: net.nightlyside.hideplayerinregion.HidePlayerInRegion
+version: '0.0.1'
+name: HidePlayerInRegion
+load: POSTWORLD
+description: "Hide player in specific WG region."
+depend: [WorldGuard, WGCustomFlags]
+commands:
+  hideplayersinregion:
+    description: Reload plugin.
+    usage: /<command>
+permissions:
+  hideplayerinregion.see:
+    default: op
+  hideplayerinregion.nohide:
+    default: true
